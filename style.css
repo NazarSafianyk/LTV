@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+.wrap {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homePage {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6347F9;
+    color: #fff;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    height: 10vh;
+    margin-bottom: 150px;
+}
+
+header .logo {
+    font-family: 'Lexend Zetta';
+    font-size: 40px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav ul {
+    align-items: center;
+    display: flex;
+}
+
+header nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+header button {
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Lexend Zetta';
+    font-size: 16px;
+}
+
+header nav i {
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.homePage p {
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+
+h1 {
+    font-family: 'Lexend Zetta';
+    width: 80%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.img_Rome {
+    position: absolute;
+    width: 215px;
+    height: 304px;
+    left: 30px;
+    top: 544px;
+    background: url(./img/Rome.png);
+}
+
+.img_NewYork {
+    position: absolute;
+    width: 230px;
+    height: 400px;
+    left: 310px;
+    top: 496px;
+    background: url(./img/New_York.png);
+}
+
+.img_Paris {
+    position: absolute;
+    width: 335px;
+    height: 374px;
+    left: 600px;
+    top: 520px;
+    background: url(./img/Paris.png);
+    background-repeat: no-repeat;
+}
+
+.img_main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.city {
+    position: absolute;
+    left: 30px;
+    top: 855px;
+}
+
+.countr {
+    position: absolute;
+    left: 30px;
+    top: 875px;
+    color: grey;
+}
+
+.city2 {
+    position: absolute;
+    left: 310px;
+    top: 906px;
+}
+
+.countr2 {
+    position: absolute;
+    left: 310px;
+    top: 926px;
+    color: grey;
+}
+
+.city3 {
+    position: absolute;
+    left: 600px;
+    top: 900px;
+}
+
+.countr3 {
+    position: absolute;
+    left: 600px;
+    top: 920px;
+    color: grey;
+}
+
+
